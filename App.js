@@ -24,6 +24,7 @@ const messages = Platform.select({
 type Props = {};
 export default class App extends Component<Props> {
   render() {
+    console.log("props changed 1111", this.props)
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Meteor React Demo!</Text>
